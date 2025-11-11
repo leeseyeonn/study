@@ -1,0 +1,96 @@
+/* .row5 {display: flex; gap: 30px;}
+.row5 .dgb_video {}
+.row5 .shampoo_wrap {}
+.row5 .shampoo_wrap .shampoo {}
+.row5 .shampoo_wrap .shampoo .main_title_txt01 {}
+.row5 .shampoo_wrap .shampoo .main_title_txt01 a {display: flex; align-items: flex-end; gap:5px;}
+.row5 .shampoo_wrap .shampoo .main_title_txt01 p  {
+    font-size: 26px; font-weight: 500;
+    color:#212121; margin: 0;
+}
+.row5 .shampoo_wrap .dgb_shampoo {}
+
+ */
+
+ @media (min-width: 1024px) {
+    #contents > .row5 {
+        max-width: 1860px !important;
+        width: 100%  !important;;
+        padding-left: 30px;
+        padding-right:30px;
+        max-height:600px;
+    }
+}
+
+.row5 {
+    overflow:hidden;
+    margin:0px;
+    display: flex; gap: 30px;
+}
+.row5 .dgb_video {}
+.row5 .shampoo_wrap {}
+.row5 .shampoo_wrap .shampoo {}
+.row5 .shampoo_wrap .shampoo .main_title_txt01 {padding-top:33px;}
+.row5 .shampoo_wrap .shampoo .main_title_txt01 a {display: flex; align-items: flex-end; gap:5px;}
+.row5 .shampoo_wrap .shampoo .main_title_txt01 p  {
+    font-size: 26px; font-weight: 450;
+    color:#212121; margin: 0;
+    line-height:130%
+}
+
+.row5 .ec-base-product ul.grid3_slide {
+	display:flex;
+    flex-flow:column nowrap;
+}
+.row5 .shampoo_wrap {
+	width:100%;
+}
+
+.row5 .xans-product-listmain-9 {
+    background:red;
+
+}
+
+.row5  .prdList__item {display:flex;}
+.row5 .prdList__item  .thumbnail {width:120px !important; height:120px !important;}
+.row5 .prdList__item .thumbnail a {width:100%; height:100%;}
+.row5 .prdList__item .thumbnail a img {width:100%; height:100%;}
+
+
+
+#shampoo_bar {border: 1px solid red;}
+#shampoo_bar .shampoo_bar_wrap {
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap {
+    
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_thumb {
+    width: 120px; height: 120px;
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_thumb img {width: 100%;}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_info {}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_info .sp_name {
+    font-size: 18px; font-weight: 500; letter-spacing: -0.2px;
+    margin-bottom: 10px;
+    color:#212121;
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_info .sp_des {
+    font-size: 14px; font-weight: 400; letter-spacing: -0.2px;
+    margin-bottom: 20px;
+    color:#212121;
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_info .sale {
+    font-size: 16px; font-weight: 500; letter-spacing: -0.2px;
+    color:#212121;
+
+}
+#shampoo_bar .shampoo_bar_wrap .sp_wrap a .sp_info .cost del {
+    font-size: 16px; font-weight: 500; letter-spacing: -0.2px;
+    color:#767676;
+}

@@ -1,0 +1,99 @@
+.row4 {}
+.row4 .gift {
+    display: flex;
+    align-items: center;
+}
+.row4 .gift .main_title_txt01 {
+    font-size: 26px;
+    font-weight: 600;
+    color:#212121;
+    letter-spacing: -0.5px;
+}
+.row4 .gift .row4_more {
+    
+}
+
+.row4 .gift .row4_more a {
+    display: flex;
+    align-items: center;
+}
+
+.row4 .gift .row4_more a p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.row4 .gift_wrap {
+    width: max-content;
+    border: 1px solid red;
+    position: relative; /* 기준점이 됨 */
+}
+.row4 .gift_wrap .choigosim {
+ background-image: url(./gift.jpg);
+ width: 635px;
+ height: 374px;
+ position: relative;
+}
+.row4 .gift_wrap .choigosim a {}
+
+.row4 .gift_wrap .choigosim_layer {
+    position: absolute;
+    top: 0; left: 0;
+    display: flex;
+    background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,0.5) 53%, rgba(33,33,33,0.8) 100%);
+    width: 635px;
+    height: 374px;
+    justify-content: space-between;
+    align-items: flex-end;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.18s ease;
+}
+
+
+.row4 .gift_wrap .choigosim_layer .choi_text p:nth-child(1) {
+    font-size: 14px;
+    color:#f00;
+    font-weight:600;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.row4 .gift_wrap .choigosim_layer .choi_text p:nth-child(2) {
+    font-size: 22px;
+    color:#f00;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.row4 .gift_wrap .choigosim_layer .gift_more {
+    display: flex;
+    gap:10px;
+    padding:12px;
+    border: 0.5px solid #fff;
+    width: max-content;
+    height: max-content;
+    transition: all 0.2s ease;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+    transition: all 0.3s ease;
+}
+
+.row4 .gift_wrap .choigosim_layer .gift_more:hover {
+    border: 0.5px solid #212121;
+    background-color: #212121;
+}
+.row4  .gift_wrap .choigosim_layer .gift_more p {
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+}
+
+
+.row4 .gift_wrap .choigosim:hover .choigosim_layer {
+    opacity: 1;
+    visibility: visible;
+    
+    }

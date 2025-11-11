@@ -1,0 +1,86 @@
+body {background-color: lightgray;}
+.main_title {
+    
+    padding-top:20px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap:15px;
+    align-items: flex-start;
+}
+.object .main_title_txt01 {
+    color:#f00;
+    font-size: 26px; font-weight: 600;
+    letter-spacing: -0.2px;
+    
+} 
+.object .main_title .main_title_txt02 {
+    font-size: 18px; font-weight: 500;
+    letter-spacing: -0.2px;
+    color: #fff;
+    opacity: 0.8;
+}
+.object .main_title .more {
+    display: flex; flex-flow: row; gap: 10px; padding: 12px;
+    border: 0.5px solid #fff; width: max-content;
+    transition: all 0.2s ease;
+    margin-top: 65px;
+}
+.object .main_title .more:hover {
+    border: 0.5px solid #212121;
+    background-color: #212121;
+    
+}
+.object .main_title .more p {
+    font-size: 16px; font-weight: 500; color: #fff;
+}
+
+
+
+.main_product_slide {
+
+}
+
+.object_collection {
+    background-image: url(/custom/images/main/object_collection.jpg);
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-flow:row nowrap;
+    width:100%;
+}
+.object_collection .ez-align-left {
+
+}
+.object_collection .ez-align-left .main_title_txt01 {
+    color:#fff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 130%;
+}
+.object_collection .ez-align-left .main_title_txt02 {
+    color:#fff;
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.object_collection .ez-align-left .more {
+    display: flex;
+    flex-flow: row nowrap;
+    gap:10px;
+    padding:12px;
+    border: 0.5px solid #fff;
+    width: max-content;
+    transition: all 0.2s ease;
+}
+.object_collection .ez-align-left .more:hover { 
+    border: 0.5px solid #212121;
+    background-color: #212121;
+}
+.object_collection .ez-align-left .more p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.object_collection .ez-align-left .more p svg {}
+
