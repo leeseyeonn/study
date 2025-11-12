@@ -1,0 +1,50 @@
+.brand {
+    height: 200px;
+    background-image: url(./brand_01_edit.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    flex-flow: column;
+    display: flex;
+    padding-left: 30px;
+}
+.brand .text {
+    font-size: 22px; font-weight: 500;
+    letter-spacing: -1px;
+    color: #212121;
+}
+.brand .brand_btn {
+    display: flex;
+    flex-flow: row nowrap;
+    gap:10px;
+    padding:12px;
+    border: 0.5px solid #212121;
+    width: max-content;
+    transition: all 0.2s ease;
+    margin-top: 25px;
+    height: max-content;
+}
+.brand .brand_btn:hover {
+    border: 0.5px solid #212121;
+    background-color: #212121;
+}
+.brand .brand_btn:hover span {
+    color: #fff;
+}
+.brand .brand_btn span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    letter-spacing: -0.5px;
+}
+.brand .brand_btn svg {
+    fill:#212121;
+}
+.brand .brand_btn:hover svg {
+    fill:#fff ;
+}
+.box {
+    width: 500px; height: 500px; background: gray;
+}

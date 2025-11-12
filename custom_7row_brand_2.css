@@ -1,0 +1,121 @@
+.brand_wrap {
+    width: 100%;
+
+}
+
+.brand_wrap .title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: #212121;
+}
+
+.brand_wrap .brand_box {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 120px;
+}
+
+.brand_wrap .brand_box .brand_box_01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand_wrap .brand_box .brand_box_01 img {
+    position: relative;
+    z-index: 1;
+}
+.brand_wrap .brand_box .brand_box_01 img::after {
+    display: block; content: "";
+    width: 100%; position: absolute; top: 0; left: 0;
+    background-color: red;
+   z-index: 2;
+}
+
+.brand_wrap .brand_box .brand_box_02 img {
+    width: 1860px;
+}
+
+.brand_wrap .brand_box {}
+
+.brand_wrap .brand_box .main_text {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.brand_wrap .brand_box .main_text span {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.brand_wrap .brand_box .bottom_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.brand_wrap .brand_box .bottom_text .sub_title .sub_text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.brand_wrap .brand_box .bottom_text .sub_title span {
+    font-size: 14px;
+}
+
+.brand_wrap .brand_box .bottom_text .more_btn {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 10px;
+    padding: 12px;
+    border: 0.5px solid #212121;
+    width: max-content;
+    transition: all 0.2s ease;
+    height: max-content;
+}
+
+.brand_wrap .brand_box .bottom_text .more_btn:hover {
+    border: 0.5px solid #212121;
+    background-color: #212121;
+}
+
+.brand_wrap .brand_box .bottom_text .more_btn:hover span {
+    color: #fff;
+}
+
+.brand_wrap .brand_box .bottom_text .more_btn span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    letter-spacing: -0.5px;
+}
+
+.brand_wrap .brand_box .bottom_text .more_btn svg {
+    padding-top: 3px;
+    fill: #212121
+}
+
+.brand_wrap .brand_box .bottom_text .more_btn:hover svg {
+    fill: #fff;
+}
+
+.brand_wrap .brand_box .bottom_texts {}
+
+
+.brand_wrap .brand_box strong {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.brand_wrap .brand_box .brand_box_01 {}
+
+
+.brand_wrap .brand_box .brand_box_02 {
+    display: flex;
+}
+
+.brand_wrap .brand_box .brand_box_02 .main_texts {}
