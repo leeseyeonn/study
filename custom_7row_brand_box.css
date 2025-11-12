@@ -1,0 +1,137 @@
+.swiper {}
+
+.swiper .swiper-wrapper {
+    padding: 0 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.swiper .swiper-wrapper .add01 {}
+
+.swiper .swiper-wrapper .add01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./7row_01.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+    z-index: 0;
+
+}
+
+.swiper .swiper-wrapper .swiper-slide:hover::before {
+    transform: scale(1.1);
+      filter: blur(3px); /* ✅ 블러 핵심 */
+}
+
+
+.swiper .swiper-wrapper .swiper-slide::after {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.3s ease;
+  z-index: 1; 
+}
+
+.swiper .swiper-wrapper .swiper-slide:hover::after {
+     background-color: rgba(0,0,0,0.4);
+}
+
+
+.swiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    border: 1px solid red;
+    min-width: 200px;
+    color: #212121;
+    padding-bottom: 11%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper .swiper-wrapper .swiper-slide .add_off {
+    transform: translateY(0);
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    color: #212121;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: transform 0.3s ease;
+}
+
+.swiper .swiper-wrapper .swiper-slide:hover .add_off {
+    transform: translateY(-100%);
+    
+}
+
+.swiper .swiper-wrapper .swiper-slide .add_off h4 {
+    margin-top: 36px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f1;
+    width: 90%;
+    letter-spacing: -0.2px;
+}
+
+.swiper .swiper-wrapper .swiper-slide .add_off p {
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.swiper .swiper-wrapper .swiper-slide .add_on {
+    display: flex;
+    opacity: 0;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.swiper .swiper-wrapper .swiper-slide:hover .add_on {
+    opacity: 1;
+    
+}
+
+
+.swiper .swiper-wrapper .swiper-slide .add_on h4 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f1;
+    width: 90%;
+    letter-spacing: -0.2px;
+}
+
+.swiper .swiper-wrapper .swiper-slide .add_on p {
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.swiper .swiper-wrapper .swiper-slide .add_on span {
+    letter-spacing: -0.2px;
+    line-height: 200%;
+}
