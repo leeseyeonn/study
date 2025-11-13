@@ -1,0 +1,143 @@
+.row8_container {
+    display: flex;
+    gap:80px;
+    width: 100%;
+}
+.row8_container .offline_sale {
+    padding-left: 30px;
+    /* border: 2px solid salmon; */
+    width: 70%;
+}
+.row8_container .offline_sale .offline_sale_title {
+    font-size: 30px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    color:#212121;
+}
+.row8_container .offline_sale .offline_sale_btn_grp {
+    display: flex; gap: 10px;
+}
+.row8_container .offline_sale .offline_sale_btn_grp .offline_sale_btn {
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    padding: 8px;
+    border: 1px solid #212121;
+    color:#212121;
+    margin: 20px 0 30px 0;
+    transition: all 0.2s ease;
+}
+.row8_container .offline_sale .offline_sale_btn_grp .offline_sale_btn:hover {
+    background-color: #212121;
+    color: #fff;
+}
+
+.row8_container .offline_sale .offline_info {
+    position: relative;
+    border: 1px solid red;
+}
+.row8_container .offline_sale .offline_info .channel {
+    display: none !important;
+    /* off_box */ }
+.row8_container .offline_sale .offline_info .sell {
+    display: none !important;
+    position: absolute; left: 0; top: 0;
+    width: 100%;
+    /* off_box */}
+.row8_container .offline_sale .offline_info .book_store {
+    /* display: none !important; */ /* off_box */
+    position: absolute; left: 0; top: 0;
+width: ;}
+
+
+    .row8_container .offline_sale .offline_info .book_store 
+
+
+
+.row8_container .offline_sale .offline_info .off_box {
+    /* border: 1px solid greenyellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items: center;
+}
+.row8_container .offline_sale .offline_info .off_box .off_box_wrap {
+
+    }
+.row8_container .offline_sale .offline_info .off_box .wrap1 {/* off_box_wrap  */}
+.row8_container .offline_sale .offline_info .off_box .wrap2 {
+    padding: 0 15px;
+    border-left:1px solid #212121;
+    border-right:1px solid #212121;
+    /* off_box_wrap  */}
+.row8_container .offline_sale .offline_info .off_box .wrap2 .brand_wrap {
+    padding: 10px 0 !important;
+}    
+.row8_container .offline_sale .offline_info .off_box .wrap3 {/* off_box_wrap  */}
+.row8_container .offline_sale .offline_info .off_box .off_box_wrap .brand_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.row8_container .offline_sale .offline_info .off_box .off_box_wrap .brand_wrap  .brand_image {}
+.row8_container .offline_sale .offline_info .off_box .off_box_wrap .brand_wrap  .brand_image img {}
+.row8_container .offline_sale .offline_info .off_box .off_box_wrap .brand_wrap  .brand_name {
+    font-size: 16px;
+    font-weight: 500;
+    color:#212121;
+    letter-spacing: -0.2px;
+}
+.row8_container .business_order {
+    margin-right: 30px;
+    border: 2px solid orange;
+    width: 30%;
+    background-image: url(/oem_image.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    position: relative;
+}
+
+.row8_container .business_order::after {
+    display: block; content: "";
+    width: 100%; height: 100%;
+    position: absolute;
+    top:0; left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.row8_container .business_order .business_title {
+    display: flex; flex-flow: column; gap: 5px;
+}
+.row8_container .business_order .business_title .business_slogan,
+.row8_container .business_order .business_title .business_name {
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    z-index: 1;
+}
+.row8_container .business_order .bus_btn {
+    position: relative;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    float: right;
+    z-index: 1;
+    transition: all 0.2s ease;
+}
+
+.row8_container .business_order .bus_btn svg {
+    fill:#fff;
+}
+
+.row8_container .business_order .bus_btn:hover {
+    background-color: #212121;
+    border: 1px solid #212121;
+}
