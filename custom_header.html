@@ -11,9 +11,10 @@
 
 <body>
     <header class="dgb_hdr">
-        <div class="hdr_main">
-            <h1><a href="https://zzin8520003.cafe24.com/"><img src="./images/logo_w.svg" alt=""></a></h1>
-            <nav class="dgb_cate_main">
+        <div class="gnb_hdr">
+            <div class="gnb_left hd0">
+                <h1 class="hd1"><a href="https://zzin8520003.cafe24.com/"><img src="./images/logo_w.svg" alt=""></a></h1>
+            <nav class="main_menu hd2">
                 <ul class="dgb_gnb">
                     <li>
                         <a href="/project/%EB%8F%99%EA%B5%AC%EB%B0%AD-%EC%9D%B4%EC%95%BC%EA%B8%B0/60/">동구밭 이야기</a>
@@ -29,71 +30,95 @@
 
                     </li>
                     <li><a href="/project/%EA%B2%8C%EC%8B%9C%ED%8C%90/63/">게시판</a>
-
                     </li>
                     <li><a href="/project/%EC%87%BC%EC%BC%80%EC%9D%B4%EC%8A%A4/64/">쇼케이스</a></li>
                 </ul>
-                <div class="dgb_lnb">
-                    <div class="fake_box"></div>
-                    <div class="lnb_box">
-                        <ul class="sub_cate01">
-                            <li><a href="/project/%EB%8F%99%EA%B5%AC%EB%B0%AD-%EC%8A%A4%ED%86%A0%EB%A6%AC/65/">동구밭
-                                    스토리</a>
-                            </li>
-                            <li><a href="/project/%EC%86%8C%EC%85%9C-%EC%9E%84%ED%8C%A9%ED%8A%B8/66/">소셜 임팩트</a></li>
-                            <li><a href="/project/%EB%B9%84%ED%95%98%EC%9D%B8%EB%93%9C-%EB%8F%99%EA%B5%AC%EB%B0%AD/67/">비하인드
-                                    동구밭</a>
-                            </li>
-                            <li><a href="/project/%EB%8F%99%EA%B5%AC%EB%B0%AD-TV/68/">동구밭 TV</a></li>
-                        </ul>
-                        <ul class="sub_cate01">
-                            <li><a href="/category/%ED%8E%98%EC%9D%B4%EC%85%9C-%C2%B7-%EB%B0%94%EB%94%94/46/">페이셜 ·
-                                    바디</a>
-                            </li>
-                            <li><a href="/category/%ED%97%A4%EC%96%B4/47/">헤어</a></li>
-                            <li><a href="/category/%EC%A3%BC%EB%B0%A9%C2%B7-%EB%A6%AC%EB%B9%99/48/">주방· 리빙</a></li>
-                            <li><a href="/category/%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC/49/">반려동물</a></li>
-                            <li><a href="/category/%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8/50/">선물세트</a></li>
-                            <li><a href="/category/%EC%95%85%EC%84%B8%EC%84%9C%EB%A6%AC/51/">악세서리</a></li>
-                            <li><a href="/category/%EB%8F%99%EA%B5%AC%EB%A7%88%EC%BC%93/52/">동구마켓</a></li>
-                        </ul>
-                        <ul class="sub_cate01">
-                            <li><a href="/project/%ED%8C%90%EB%A7%A4%EC%88%9C/69/">판매순</a></li>
-                            <li><a href="/project/%EA%B3%A0%EA%B0%9D-%EC%B6%94%EC%B2%9C/70/">고객 추천</a></li>
-                            <li><a href="/project/%EC%9D%B4%EB%B2%88-%EB%8B%AC-%EC%9D%B8%EA%B8%B0/71/">이번 달 인기</a></li>
-                            <li><a href="/project/%EC%B9%9C%ED%99%98%EA%B2%BD-%EC%A0%9C%ED%92%88/72/">친환경 제품</a></li>
-                        </ul>
-                        <ul class="sub_cate01">
-                            <li><a href="/project/%EC%A7%84%ED%96%89-%EC%9D%B4%EB%B2%A4%ED%8A%B8/73/"><!-- 진행 --> 이벤트</a></li>
-                            <li><a href="/project/%EC%A2%85%EB%A3%8C%EB%90%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8/74/"><!-- 종료된 -->
-                                    이벤트</a>
-                            </li>
-                        </ul>
-                        <ul class="sub_cate01">
-                            <li><a href="/board/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/">공지사항</a></li>
-                            <li><a href="/board/%EC%83%81%ED%92%88-%EC%82%AC%EC%9A%A9%ED%9B%84%EA%B8%B0/4/"><!-- 상품  -->사용후기</a>
-                            </li>
-                            <li><a href="/board/%EC%83%81%ED%92%88-QA/6/">상품 Q&amp;A</a></li>
-                        </ul>
-                    </div>
-                    
-                </div>
-                
             </nav>
+            </div>
+            
+            <div class="hdr_right hd3">
+                <button class="search_bar">
+                    동구밭 올바른 거품입욕제 레몬그라스
+                </button>
+                <button class="search_btn">
+                    <img src="./images/search_w.svg" alt="#">
+                </button>
+                <a href="https://zzin8520003.cafe24.com/order/basket.html" module="Layout_orderBasketcount">
+                    <img src="./images/cart_w.svg" alt="장바구니">
+                    <span class="count {$basket_count_display|display} {$basket_count_display_class}">
+                        <span class="{$basket_count_class}"><!-- {$basket_count} --></span></span></a>
+                <a href="https://zzin8520003.cafe24.com/myshop/index.html"><img src="./images/user_w.svg"
+                        alt="마이페이지"></a>
+            </div>
         </div>
+        <div class="lnb_hdr">
+            <div class="lnb_left hd0">
+                <h1 class="hd1"></h1>
+            <nav class="sub_menu hd2">
+                <ul class="sub_cate01 m1">
+                    <li><a href="/project/%EB%8F%99%EA%B5%AC%EB%B0%AD-%EC%8A%A4%ED%86%A0%EB%A6%AC/65/">동구밭 스토리</a></li>
+                    <li><a href="/project/%EC%86%8C%EC%85%9C-%EC%9E%84%ED%8C%A9%ED%8A%B8/66/">소셜 임팩트</a></li>
+                    <li><a href="/project/%EB%B9%84%ED%95%98%EC%9D%B8%EB%93%9C-%EB%8F%99%EA%B5%AC%EB%B0%AD/67/">비하인드
+                            동구밭</a>
+                    </li>
+                    <li><a href="/project/%EB%8F%99%EA%B5%AC%EB%B0%AD-TV/68/">동구밭 TV</a></li>
+                </ul>
+                <ul class="sub_cate01 m2">
+                    <li><a href="/category/%ED%8E%98%EC%9D%B4%EC%85%9C-%C2%B7-%EB%B0%94%EB%94%94/46/">페이셜 · 바디</a></li>
+                    <li><a href="/category/%ED%97%A4%EC%96%B4/47/">헤어</a></li>
+                    <li><a href="/category/%EC%A3%BC%EB%B0%A9%C2%B7-%EB%A6%AC%EB%B9%99/48/">주방· 리빙</a></li>
+                    <li><a href="/category/%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC/49/">반려동물</a></li>
+                    <li><a href="/category/%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8/50/">선물세트</a></li>
+                    <li><a href="/category/%EC%95%85%EC%84%B8%EC%84%9C%EB%A6%AC/51/">악세서리</a></li>
+                    <li><a href="/category/%EB%8F%99%EA%B5%AC%EB%A7%88%EC%BC%93/52/">동구마켓</a></li>
+                </ul>
+                <ul class="sub_cate01 m3">
+                    <li><a href="/project/%ED%8C%90%EB%A7%A4%EC%88%9C/69/">판매순</a></li>
+                    <li><a href="/project/%EA%B3%A0%EA%B0%9D-%EC%B6%94%EC%B2%9C/70/">고객 추천</a></li>
+                    <li><a href="/project/%EC%9D%B4%EB%B2%88-%EB%8B%AC-%EC%9D%B8%EA%B8%B0/71/">이번 달 인기</a></li>
+                    <li><a href="/project/%EC%B9%9C%ED%99%98%EA%B2%BD-%EC%A0%9C%ED%92%88/72/">친환경 제품</a></li>
+                </ul>
+                <ul class="sub_cate01 m4">
+                    <li><a href="/project/%EC%A7%84%ED%96%89-%EC%9D%B4%EB%B2%A4%ED%8A%B8/73/">진행 이벤트</a></li>
+                    <li><a href="/project/%EC%A2%85%EB%A3%8C%EB%90%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8/74/">종료된 이벤트</a></li>
+                </ul>
+                <ul class="sub_cate01 m4">
+                    <li><a href="/board/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/">공지사항</a></li>
+                    <li><a href="/board/%EC%83%81%ED%92%88-%EC%82%AC%EC%9A%A9%ED%9B%84%EA%B8%B0/4/">상품 사용후기</a></li>
+                    <li><a href="/board/%EC%83%81%ED%92%88-QA/6/">상품 Q&amp;A</a></li>
+                </ul>
+                <ul class="sub_cate01 m5">
+                    <li><a href="/board/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/">*공지사항</a></li>
+                </ul>
+            </nav>
+            </div>  
+            
+            <div class="recom hd3">
+                <p>실시간 급상승 제품</p>
+                <a href="#">
+                    <div class="recom_pd rp1">
+                        <img src="./images/product/recom_pd_1.jpg" alt="">
+                        <p>동구밭 오 드 뚜왈렛 오브제 퍼퓸바 퓨어 네롤리</p>
+                        <span>8,900원<del>24,000원</del></span>
+                    </div>
+                </a>
 
-        <div class="hdr_right">
-            <button class="search_bar">
-                동구밭 올바른 거품입욕제 레몬그라스
-            </button>
-            <button class="search_btn hdr_btn">
-                <img src="./images/search_w.svg" alt="#">
-            </button>
-            <a href="https://zzin8520003.cafe24.com/order/basket.html" module="Layout_orderBasketcount">
-                <img src="./images/cart_w.svg" alt="장바구니">
-                <span class="count {$basket_count_display|display} {$basket_count_display_class}">
-                    <span class="{$basket_count_class}"><!-- {$basket_count} --></span></span></a>
-            <a href="https://zzin8520003.cafe24.com/myshop/index.html"><img src="./images/user_w.svg" alt="마이페이지"></a>
+                <a href="#">
+                    <div class="recom_pd rp2">
+                        <img src="./images/product/recom_pd_2.png" alt="">
+                        <p>동구밭 베러 댄 리퀴드 여행용 키트</p>
+                        <span>8,550원<del>9,500원</del></span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="recom_pd rp3">
+                        <img src="./images/product/recom_pd_3.png" alt="">
+                        <p>동구밭 수세미 기본형</p>
+                        <span>4,000원</span>
+                    </div>
+                </a>
+
+            </div>
         </div>
     </header>
 </body>
