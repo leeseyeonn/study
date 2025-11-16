@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./7row_01.jpg);
+    background-image: url(/custom/images/main/7row_01.jpg);
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease;
@@ -31,7 +31,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./7row_02.jpg);
+    background-image: url(/custom/images/main/7row_02.jpg);
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease;
@@ -46,7 +46,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./7row_03.png);
+    background-image: url(/custom/images/main/7row_03.png);
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease;
@@ -61,7 +61,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./7row_04.jpg);
+    background-image: url(/custom/images/main/7row_04.jpg);
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease;
@@ -75,7 +75,7 @@
 .row7_container .row7_box_wrap  .row7_box:hover::before {
     transform: scale(1.1);
     filter: blur(3px);
-    /* ✅ 블러 핵심 */
+    
 }
 
 

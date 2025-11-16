@@ -1,8 +1,8 @@
 .brand {
     height: 200px;
-    background-image: url(./brand_01_edit.jpg);
+    background-image: url(/study/images/brand_01.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     justify-content: center;
